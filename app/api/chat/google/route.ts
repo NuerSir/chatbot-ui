@@ -42,7 +42,8 @@ export async function POST(request: Request) {
     })
 
     return new Response(readableStream, {
-      headers: { "Content-Type": "text/plain" }
+      // headers: { "Content-Type": "text/plain" }
+      headers: { "Content-Type": "text/event-stream" }
     })
 
   } catch (error: any) {
