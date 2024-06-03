@@ -7,11 +7,11 @@ const GOOGLE_PLATORM_LINK = "https://ai.google.dev/"
 // Gemini Flash (UPDATED 05/28/24)
 const GEMINI_FLASH: LLM = {
   modelId: "gemini-1.5-pro-latest",
-  modelName: "Gemini Flash",
+  modelName: "Gemini 1.5 Flash",
   provider: "google",
   hostedId: "gemini-1.5-pro-latest",
   platformLink: GOOGLE_PLATORM_LINK,
-  imageInput: false
+  imageInput: true
 }
 
 // Gemini Pro (UPDATED 12/22/23)
@@ -26,10 +26,10 @@ const GEMINI_PRO: LLM = {
 
 // Gemini Pro Vision (UPDATED 12/22/23)
 const GEMINI_PRO_VISION: LLM = {
-  modelId: "gemini-pro-vision",
-  modelName: "Gemini Pro Vision",
+  modelId: "gemini-1.5-pro-latest",
+  modelName: "Gemini 1.5 Pro",
   provider: "google",
-  hostedId: "gemini-pro-vision",
+  hostedId: "gemini-1.5-pro-latest",
   platformLink: GOOGLE_PLATORM_LINK,
   imageInput: true
 }
